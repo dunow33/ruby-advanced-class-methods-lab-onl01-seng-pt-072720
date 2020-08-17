@@ -54,7 +54,7 @@ class Song
   
   def self.new_from_filename(song)
     song_array = song.split("-")
-    artist_name = song_array[0]
+    artist_name = song_array[0].strip
     name_array = song_array[1].split(".")
     name = name_array[0].strip
     
