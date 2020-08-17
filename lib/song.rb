@@ -54,3 +54,5 @@ class Song
     sorted
   end
 end
+
+song = Song.new
