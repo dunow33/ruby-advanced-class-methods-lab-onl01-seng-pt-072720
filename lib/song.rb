@@ -48,4 +48,7 @@ class Song
     song
   end
   
+  def alphabetical
+  
+  end
 end
