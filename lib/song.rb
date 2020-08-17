@@ -57,5 +57,11 @@ class Song
     artist_name = song_array[0]
     name_array = song_array[1].split(".")
     name = name_array[0]
+    
+    song = self.new
+    song.name = name
+    song.artist_name = artist_name
+    
+    song
   end
 end
