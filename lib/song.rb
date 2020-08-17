@@ -50,7 +50,7 @@ class Song
   
   def self.alphabetical
     sorted = []
-    sorted = self.all.sort_by { | song | song }
+    puts self.all.sort_by { | song | song }
     sorted
   end
 end
